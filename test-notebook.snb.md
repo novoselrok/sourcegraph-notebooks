@@ -25,5 +25,5 @@ One use case for regular expression search is when you are trying to find exampl
 readFile and writeFile have a pattern in common: they both end in File. We can write a regular expression that expresses this pattern like so:
 
 ```sourcegraph
-(read|write)File
+(read|write)File patterntype:regexp
 ```
